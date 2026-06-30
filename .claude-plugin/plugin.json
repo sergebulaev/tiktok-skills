@@ -1,0 +1,23 @@
+{
+  "name": "tiktok-skills",
+  "description": "5 Claude Code and Codex skills for TikTok marketing: first 1-3 second hook scripting (spoken line plus on-screen text), caption writing under 2,200 chars with TikTok settings and hashtags, trend and sound mapping for your niche, an AI-script humanizer with pre-film audit, and weekly content planning around completion rate. Publora is the default publish layer for the rendered video.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Serge Bulaev",
+    "url": "https://github.com/sergebulaev"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/sergebulaev/tiktok-skills",
+  "keywords": [
+    "tiktok",
+    "short-form-video",
+    "marketing",
+    "social-media",
+    "content",
+    "claude-skills",
+    "codex-skills",
+    "viral",
+    "hooks",
+    "trends"
+  ]
+}

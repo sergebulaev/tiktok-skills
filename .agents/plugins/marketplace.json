@@ -1,0 +1,20 @@
+{
+  "name": "tiktok-skills",
+  "interface": {
+    "displayName": "TikTok Skills"
+  },
+  "plugins": [
+    {
+      "name": "tiktok-skills",
+      "source": {
+        "source": "local",
+        "path": "./.codex-marketplace/tiktok-skills"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
