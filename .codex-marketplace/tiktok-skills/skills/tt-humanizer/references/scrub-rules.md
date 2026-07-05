@@ -51,6 +51,25 @@ Words no one says on camera. Swap for the spoken equivalent.
 | "at the end of the day" | cut |
 | "game-changer" / "deep dive" / "dive in" | name the actual thing |
 | "it's not just X, it's Y" | rewrite as a flat claim |
+| "in today's fast-paced world" / "in the age of AI" | cut |
+
+## Tier 2 - Strict: dead closers (caption and script)
+
+Generic engagement-bait closers read as AI on TikTok the same as everywhere.
+Rewrite to one specific ask tied to this video's content, or end on the
+loop-close line with no ask at all.
+
+| Closer | Action |
+|---|---|
+| "What do you think?" | rewrite to a specific ask, or cut |
+| "Drop your thoughts below" / "drop them below" | rewrite to a specific ask |
+| "Let me know in the comments" (bare, no subject) | rewrite: name what to comment |
+| "Comment below!" | rewrite to a specific ask |
+| "Tag someone who needs this" | cut |
+
+A specific ask names the thing: "what would you cut first?", "team 5am or team
+midnight?", "what's your onboarding horror story?". If no specific ask fits,
+end the caption on the claim.
 
 ## Tier 3 - Spoken-word fixes (the part text humanizers miss)
 

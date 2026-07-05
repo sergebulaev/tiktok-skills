@@ -62,7 +62,9 @@ Apply the tiered catalogs in `references/scrub-rules.md`:
   swaps (leverage -> use, delve -> look at, harness -> use, foster -> build),
   filler adverbs (fundamentally, essentially, ultimately), written connectives
   ("moreover", "furthermore"), dead filler ("hey guys", "without further ado"),
-  and dead closers ("thanks for watching", "don't forget to subscribe").
+  and dead closers, both spoken ("thanks for watching", "don't forget to
+  subscribe") and caption-level ("What do you think?", "Drop your thoughts
+  below", bare "Let me know in the comments").
 
 ### Pass 2 - BREAK (make it sound spoken)
 
