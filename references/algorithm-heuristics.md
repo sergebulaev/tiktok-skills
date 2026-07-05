@@ -5,6 +5,21 @@ Creator Portal guidance, public statements from the TikTok engineering and
 creator teams, and observed creator data. Numbers marked "reported" are
 community-measured, not officially confirmed.
 
+## Contents
+
+- The core truth: completion rate is king
+- Signal weights (relative reach impact)
+- The first 1-3 seconds
+- Reach amplifiers
+- Reach suppressors (avoid)
+- Video length
+- Sound selection
+- Caption and hashtags
+- Posting settings (platformSettings.tiktok)
+- Rate limits
+- Timing
+- Pre-publish checklist
+
 ## The core truth: completion rate is king
 
 TikTok's For You ranker is a watch-time machine. The single heaviest input is

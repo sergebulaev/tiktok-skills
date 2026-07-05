@@ -25,6 +25,22 @@ with the sound off.
 > No em dashes in any spoken line or on-screen card. Use `..` as a soft pause if
 > you need one. A dash on screen reads as a typo.
 
+## Contents
+
+- T1 - Cold-Open Result
+- T2 - Pattern Interrupt
+- T3 - Specific-Number Reveal
+- T4 - Open Loop Question
+- T5 - Relatable Call-Out
+- T6 - Bold Claim, No Hedge
+- T7 - Listicle Promise
+- T8 - Story In Medias Res
+- T9 - Tutorial Cold Start
+- T10 - Trend-Ride With A Twist
+- Engagement-goal split
+- Hook micro-rules (TikTok-specific)
+- Never do
+
 ---
 
 ## T1 - Cold-Open Result
