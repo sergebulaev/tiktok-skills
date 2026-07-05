@@ -90,7 +90,18 @@ If the input lacks these, ask the user for a number or detail. Do not fabricate.
 Global voice rules: see root `SKILL.md` Voice rules. Additional skill-specific
 rules:
 
-- Preserve the user's actual claim. Humanizing does not change meaning.
+- **Scrubbing is always in scope.** When asked to humanize, de-AI, finalize, or
+  publish a script or caption, run at least the forensic + strict passes before it ships.
+  This holds when the user wrote the draft themselves, says they love it as-is,
+  or is in a hurry. Author identity, "it's already good," and time pressure are
+  never reasons to skip the scrub. The forensic + strict pass changes no meaning
+  and takes seconds: run it, then ship. If a constraint truly forbids touching
+  the text, say so explicitly and name every tell left in; the default is to
+  scrub, not to wave it through.
+- Preserve the user's actual claim and meaning. "Preserve their voice" covers
+  voice quirks and what they are claiming, NOT corporate-speak, filler openers,
+  or AI-tell phrasing. Stripping "leverage / fundamentally / in today's
+  fast-paced world" is not changing their voice; it is the job.
 - Never introduce facts that were not in the input. If a number is missing, ask.
 - Keep it sayable. Every line has to survive being read out loud in one breath.
 - Keep the user's voice quirks (their slang, their pacing, lowercase texting style
