@@ -71,6 +71,31 @@ git clone https://github.com/sergebulaev/tiktok-skills.git
 cd tiktok-skills
 ```
 
+### OpenClaw
+
+1. Open your OpenClaw working directory
+2. Clone the skills into it:
+   ```bash
+   git clone https://github.com/sergebulaev/tiktok-skills.git
+   ```
+3. In OpenClaw settings, add this to your system prompt:
+   ```
+   You have TikTok marketing skills in ./tiktok-skills/.
+   For any TikTok task, read the relevant skills/*/SKILL.md first.
+   Use lib/url_parser.py for URL parsing and lib/publora_client.py for publishing.
+   ```
+4. Done. Ask OpenClaw to write a TikTok post.
+
+### Hermes Agent
+
+Hermes Agent (Nous Research) follows the agentskills.io open standard and loads `skills/*/SKILL.md` directly. Clone the bundle into your Hermes skills folder:
+
+```bash
+git clone https://github.com/sergebulaev/tiktok-skills.git ~/.hermes/skills/tiktok-skills
+```
+
+Coming from OpenClaw? `hermes claw migrate` imports these skills automatically. Then call `/<skill-name>` from any of your Hermes chat surfaces.
+
 ### Any agent (skills CLI)
 
 One command that works across Claude Code, Codex, Cursor, and any other agent that reads SKILL.md files:
