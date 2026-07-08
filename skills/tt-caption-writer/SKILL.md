@@ -60,8 +60,12 @@ Build these with `lib.tiktok_settings(...)`. Defaults match Publora's.
 
 ## Steps
 
-1. **Gather inputs.** The video topic/script, the niche, the goal (the caption
-   can chase comments or saves), whether it is commercial, and whether a rendered
+1. **Gather inputs, goal first.** Ask (or infer) what the caption should earn,
+   then shape for it: comments -> end on one specific question tied to the video;
+   saves -> promise reference value ("the 3 settings are in the caption");
+   shares -> a claim people will want to show someone; profile taps -> an open
+   loop the pinned video pays off. Then gather the video topic/script, the
+   niche, whether it is commercial, and whether a rendered
    .mp4 path exists.
 2. **Draft the caption.** Front-load the first visible line with a reason to read
    or a specific question to comment on. Keep it tight. No em dashes, no AI vocab.
