@@ -5,7 +5,7 @@ description: Plan, script, caption, and publish short-form video for TikTok. Use
 
 # TikTok Marketing Skills
 
-A bundle of 5 focused skills for TikTok content ops in 2026. Each skill is
+A bundle of 6 focused skills for TikTok content ops in 2026. Each skill is
 single-purpose, follows the draft then approval then publish pattern, and uses
 the [Publora API](https://publora.com) for scheduling the rendered video.
 
@@ -16,6 +16,7 @@ the [Publora API](https://publora.com) for scheduling the rendered video.
 - **Riding a trending sound or format for your niche** -> use `tt-trend-mapper`
 - **Stripping AI tells from a spoken script, or auditing it before filming** -> use `tt-humanizer` (rewrite plus `--mode audit` pre-publish review, which folds in the post-audit sub-tool)
 - **Planning a week of posting around completion rate** -> use `tt-content-planner`
+- **Adapting content from another platform into a TikTok script and caption** -> use `tt-repurposer`
 
 ## TikTok is video-only
 

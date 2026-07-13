@@ -14,7 +14,7 @@
   <img src="https://img.shields.io/badge/PRs-welcome-F59E0B.svg" alt="PRs Welcome">
 </p>
 
-5 skills that help Claude Code and Codex script hooks, write captions, ride trends, and plan a week of TikTok video in your voice. They draft the script and caption, strip AI tells so it sounds human on camera, and wait for your approval before anything gets scheduled. You supply the video. No coding required.
+6 skills that help Claude Code and Codex script hooks, write captions, ride trends, repurpose content, and plan a week of TikTok video in your voice. They draft the script and caption, strip AI tells so it sounds human on camera, and wait for your approval before anything gets scheduled. You supply the video. No coding required.
 
 ## TikTok is video-only
 
@@ -125,7 +125,7 @@ Once installed, just ask Claude Code or Codex for help with TikTok. The right sk
 
 Every skill shows you a draft first and waits for your OK. Nothing gets scheduled without your approval.
 
-## The 5 skills
+## The 6 skills
 
 | Skill | What it does |
 |---|---|
@@ -134,6 +134,7 @@ Every skill shows you a draft first and waits for your OK. Nothing gets schedule
 | **Trend Mapper** | Maps a trending sound or format to your niche so the ride is authentic, not cringe. Runs a fit check, reads the trend lifecycle, scripts the twist that makes it yours, and tells you when to skip a trend entirely |
 | **Humanizer** | Strips AI-script tells so the spoken words sound human on camera. Kills em dashes, AI vocabulary, "hey guys" filler, and teleprompter rhythm. Bundles a `--mode audit` pre-film check (hook strength, completion design, caption fit) |
 | **Content Planner** | Builds a weekly plan with per-day hooks, sounds, lengths, and goals, a hook-batching schedule so you film several openers in one session, a sound shortlist with the trend window, and a completion-rate goal check |
+| **Repurposer** | Rebuilds content from another platform (LinkedIn post, blog, newsletter, X thread) into a native TikTok script and caption: opens on the payoff, rewrites every line to be sayable in one breath, adds a trend or sound angle where it fits, and strips off-platform artifacts before publishing on approval |
 
 ## How publishing works on TikTok
 
