@@ -14,7 +14,7 @@
   <img src="https://img.shields.io/badge/PRs-welcome-F59E0B.svg" alt="PRs Welcome">
 </p>
 
-7 skills that help Claude Code and Codex script hooks, write captions, ride trends, repurpose content, optimize your profile, and plan a week of TikTok video in your voice. They draft the script and caption, strip AI tells so it sounds human on camera, and wait for your approval before anything gets scheduled. You supply the video. No coding required.
+8 skills that help Claude Code and Codex script hooks, write captions, ride trends, repurpose content, optimize your profile, and plan a week of TikTok video in your voice. They draft the script and caption, strip AI tells so it sounds human on camera, and wait for your approval before anything gets scheduled. You supply the video. No coding required.
 
 ## TikTok is video-only
 
@@ -125,7 +125,7 @@ Once installed, just ask Claude Code or Codex for help with TikTok. The right sk
 
 Every skill shows you a draft first and waits for your OK. Nothing gets scheduled without your approval.
 
-## The 7 skills
+## The 8 skills
 
 | Skill | What it does |
 |---|---|
@@ -136,6 +136,7 @@ Every skill shows you a draft first and waits for your OK. Nothing gets schedule
 | **Content Planner** | Builds a weekly plan with per-day hooks, sounds, lengths, and goals, a hook-batching schedule so you film several openers in one session, a sound shortlist with the trend window, and a completion-rate goal check |
 | **Repurposer** | Rebuilds content from another platform (LinkedIn post, blog, newsletter, X thread) into a native TikTok script and caption: opens on the payoff, rewrites every line to be sayable in one breath, adds a trend or sound angle where it fits, and strips off-platform artifacts before publishing on approval |
 | **Profile Optimizer** | Audits and rewrites the profile end-to-end: photo, searchable name, username, the 80-char bio, the link (with a pre-1k workaround), up to 3 pinned videos as niche proof, and a one-line positioning statement. Turns a profile visit that follows a video into a follow |
+| **Audience Insights** | Reads your TikTok niche and audience from real Apify data: top hashtag videos by plays, the winning hooks and sounds, competitor profiles, and the commenters on a video (TikTok hides likers). No login |
 
 ## How publishing works on TikTok
 

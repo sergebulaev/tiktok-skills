@@ -5,7 +5,7 @@ description: Plan, script, caption, and publish short-form video for TikTok. Use
 
 # TikTok Marketing Skills
 
-A bundle of 7 focused skills for TikTok content ops in 2026. Each skill is
+A bundle of 8 focused skills for TikTok content ops in 2026. Each skill is
 single-purpose, follows the draft then approval then publish pattern, and uses
 the [Publora API](https://publora.com) for scheduling the rendered video.
 
@@ -25,6 +25,8 @@ TikTok does not accept text-only or image-only posts. Every post is a video. Thi
 bundle does not generate video. It produces the spoken hook script, the on-screen
 text, the caption, the hashtags, and the recommended posting settings. **The user
 supplies the rendered .mp4.** Publishing then follows the media flow below.
+
+- **Reading your TikTok niche and audience from real data** -> use `tt-audience-insights`
 
 ## Core pattern
 
