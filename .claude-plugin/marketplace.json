@@ -12,7 +12,7 @@
       "name": "tiktok-skills",
       "source": "./",
       "description": "Bundle of 5 TikTok marketing skills for Claude Code and Codex with 3-second hook formulas, spoken-script hook writing, caption and platform-settings writing, trend and sound mapping, a unified humanizer (rewrite plus `--mode audit` pre-film check), and a weekly content planner. The user supplies the video; the rendered clip ships via Publora's draft, upload, schedule flow.",
-      "version": "1.0.7",
+      "version": "1.0.8",
       "author": {
         "name": "Serge Bulaev",
         "url": "https://github.com/sergebulaev"
