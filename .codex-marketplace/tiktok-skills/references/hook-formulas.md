@@ -257,6 +257,10 @@ Pick the formula by what you want the video to earn, then narrow by topic.
 | **shares** | hyper-specific relatable call-outs, niche trend twists | T5 Relatable Call-Out, T10 Trend-Ride |
 | **follows** | any of the above with a reason to expect more (a series, a clear niche) | T7, T9 framed as part of a series |
 
+**Corpus reality check (263-video pull, July 2026, business/creator niches).** Among videos that beat their follower count, **shares out-ran comments roughly 12 to 1 per view**. The overperformers win on utility and send-to-a-friend, not conversation. So for business and creator content, bias toward the save/share formulas (T7, T9, T5, T10); reach for the comment-driven formulas (T4, T6) mainly on identity, controversy, or cause topics, which were the only genuinely comment-heavy exceptions in the data. This is a caption-and-metrics read, so it validates the *goal mix*, not the visual hooks themselves.
+
+**Reply-bait format (worth testing, thin evidence).** The single highest-play video in that corpus was a "Replying to @username" video (a reply-comment turned into its own clip). This is a recognizable TikTok format the formulas above do not name: mine your own top comment or question and answer it as a new video. Treat it as a format to test, not a proven winner (n=1 in the sample), and note the hook still lives in the first second, not the "Replying to" label.
+
 ## Hook micro-rules (TikTok-specific)
 
 - **Spoken line and on-screen text differ.** The text carries the promise muted;
