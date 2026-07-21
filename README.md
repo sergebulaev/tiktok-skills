@@ -14,7 +14,18 @@
   <img src="https://img.shields.io/badge/PRs-welcome-F59E0B.svg" alt="PRs Welcome">
 </p>
 
-8 skills that help Claude Code and Codex script hooks, write captions, ride trends, repurpose content, optimize your profile, and plan a week of TikTok video in your voice. They draft the script and caption, strip AI tells so it sounds human on camera, and wait for your approval before anything gets scheduled. You supply the video. No coding required.
+> **Part of the [linkedin-skills](https://github.com/sergebulaev/linkedin-skills) family (400+ stars).** Same voice engine and approve-before-publish flow, now for TikTok. Also available for [Instagram](https://github.com/sergebulaev/instagram-skills) · [X](https://github.com/sergebulaev/x-skills) · [YouTube](https://github.com/sergebulaev/youtube-skills) · [Threads](https://github.com/sergebulaev/threads-skills) · [Facebook](https://github.com/sergebulaev/facebook-skills).
+
+**8 skills that turn Claude Code and Codex into your TikTok content team.** They script the first-3-second hook, write captions, ride trends, plan a week of content, and read your niche from real data. You supply the video; the skills write the words, strip the AI tells, and wait for your approval.
+
+Once installed, just ask Claude Code or Codex things like:
+
+- "Script a hook for a TikTok about [topic]"
+- "Plan a week of TikTok content for my [niche]"
+- "What's trending in my niche right now? (reads real data via Apify)"
+- "Rewrite this caption so it sounds human on camera"
+
+The right skill activates automatically. Then you review and approve.
 
 ## TikTok is video-only
 
