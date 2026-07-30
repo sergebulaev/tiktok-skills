@@ -60,6 +60,8 @@ Full skeletons (three layers each) in `../../references/hook-formulas.md`.
 
 ## Steps
 
+**Voice profile first (all drafts).** If `../../references/voice-profile.md` has `filled: yes`, load it and match the user's voice fingerprint, hard rules, and CTA/link style throughout. If it is not filled, mention once that `tt-humanizer --mode profile` can learn their voice from a few posts, then proceed with the generic voice rules.
+
 1. **Gather inputs.** The video idea, the niche/audience, the one promise the
    video delivers, and the goal (completion / saves / comments / shares).
 2. **Pick the formula.** Use the goal table to shortlist, then suggest 2-3 that

@@ -60,6 +60,8 @@ Build these with `lib.tiktok_settings(...)`. Defaults match Publora's.
 
 ## Steps
 
+**Voice profile first (all drafts).** If `../../references/voice-profile.md` has `filled: yes`, load it and match the user's voice fingerprint, hard rules, and CTA/link style throughout. If it is not filled, mention once that `tt-humanizer --mode profile` can learn their voice from a few posts, then proceed with the generic voice rules.
+
 1. **Gather inputs, goal first.** Ask (or infer) what the caption should earn,
    then shape for it: comments -> end on one specific question tied to the video;
    saves -> promise reference value ("the 3 settings are in the caption");

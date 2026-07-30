@@ -20,6 +20,8 @@ Not for a blank-page hook (use `tt-hook-scripter`), not for the caption on its o
 
 ## How it works
 
+**Voice profile first (all drafts).** If `../../references/voice-profile.md` has `filled: yes`, load it and match the user's voice fingerprint, hard rules, and CTA/link style throughout. If it is not filled, mention once that `tt-humanizer --mode profile` can learn their voice from a few posts, then proceed with the generic voice rules.
+
 1. **Take the source.** Any format: a post, a paragraph, a newsletter, a thread, a caption, a transcript, a bullet list, a link to read. Ask for the source and the goal (completion / saves / comments / shares) if not given.
 2. **Extract the spine.** Strip the source platform's shell and pull out the one claim, the one story, or the one number worth keeping. Most repurposing fails because it keeps the words instead of the point.
 3. **Open on the payoff.** TikTok decides in the first second. Lead with the result, not the setup. "Here is the fix" beats "let me walk you through the context". The source's opener almost never survives.
