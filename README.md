@@ -213,6 +213,14 @@ If Publora returns a `postGroupId`, you're set. Use `SELF_ONLY` so nobody sees t
 > - **Boolean inversion bug.** Publora may map `allowComments` / `allowDuet` / `allowStitch` to TikTok's `disable_*` flags, so they can land inverted. Test with a `SELF_ONLY` draft before trusting them.
 > - **Unaudited apps post PRIVATE only.** Until the publishing app passes TikTok's review, every post is forced to `SELF_ONLY` regardless of your viewer setting.
 
+## Optional: generate illustrations with Pixfaro
+
+A strong cover sells the video. The Caption Writer can generate a 9:16 cover with your hook text and attach it automatically when publishing. Without a key it drafts the image prompt and asks you to generate it yourself, so nothing breaks.
+
+[Pixfaro](https://pixfaro.com) is a single image API over multiple models (from `flux-schnell` at $0.004 to `gpt-5-image`). It composites your handle, brand color, or logo onto the image as a **pixel-exact overlay**, so a cheap base model still renders crisp text on a cover. Pull those brand fields from your [Voice & Brand Profile](references/voice-profile.md) (section 6) and every asset stays on-brand.
+
+Setup: drop `PIXFARO_TOKEN=pf_live_...` into your `.env`. The thin client at `lib/pixfaro_client.py` and the wrappers `lib.illustrate(prompt, kind="story")` / `lib.refine(image_id, instruction)` return a hosted URL that flows straight into `lib.publish(..., media_urls=[url])`. `refine` edits a prior image by its id (cheaper than regenerating); results carry `cost`, `balance_after`, and a `premium` flag so the skills never quietly spend on a pricey model.
+
 ## Voice rules
 
 Every skill follows these rules automatically:
