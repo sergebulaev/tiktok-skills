@@ -6,12 +6,15 @@ importable from their submodules but are not re-exported here.
 """
 from .url_parser import parse_tiktok_url
 from .publora_client import PubloraClient, PubloraError, tiktok_settings
+from .pixfaro_client import PixfaroClient, PixfaroError
 from .approval import render_approval_card
 from .apify_client import ApifyClient, ApifyError, ApifyAuthError
 from .backend_selector import (
+    image_backend,
     active_backend,
     manual_mode_message,
     publish,
+    illustrate,
 )
 
 __all__ = [
@@ -26,4 +29,8 @@ __all__ = [
     "ApifyClient",
     "ApifyError",
     "ApifyAuthError",
+    "PixfaroClient",
+    "PixfaroError",
+    "image_backend",
+    "illustrate",
 ]

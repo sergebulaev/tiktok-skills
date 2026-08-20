@@ -114,6 +114,13 @@ rules:
 - `references/settings-matrix.md` - every platformSettings.tiktok value, defaults, and the known bugs
 - `lib/publora_client.py` - `tiktok_settings(...)`, `publish_video(...)`, `create_draft(...)`
 
+## Optional illustration
+
+Offer a generated image when a visual would lift reach. Draft a prompt and call
+`lib.illustrate(prompt, kind="story")`, pulling brand handle/color from Voice &
+Brand Profile section 6 for a pixel-exact overlay. Show the returned `url` + `cost`,
+then attach on publish via `media_urls=[url]`. Full workflow (incl. quote-cards):
+`../tt-humanizer/sub-skills/illustration.md`. No Pixfaro key -> it drafts the prompt for you to generate manually.
 ## Related skills
 
 - `tt-hook-scripter` - the in-video hook (the caption does not replace it)
