@@ -119,7 +119,7 @@ rules:
 Offer a generated image when a visual would lift reach. Draft a prompt and call
 `lib.illustrate(prompt, kind="story")`, pulling brand handle/color from Voice &
 Brand Profile section 6 for a pixel-exact overlay. Show the returned `url` + `cost`,
-TikTok publishes a video, so use the image as the cover and set it in the TikTok app (it cannot be auto-attached to the video upload). Full workflow (incl. quote-cards):
+for a TikTok photo post, attach the image via `media_urls=[url]` (TikTok photo carousel); for a video, TikTok's API has no cover-image field, so set the cover in the TikTok app. Full workflow (incl. quote-cards):
 `../tt-humanizer/sub-skills/illustration.md`. No Pixfaro key -> it drafts the prompt for you to generate manually.
 ## Related skills
 
