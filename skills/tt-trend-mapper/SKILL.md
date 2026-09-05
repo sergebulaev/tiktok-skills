@@ -83,7 +83,9 @@ Once a trend clears the fit check, build the ride as a hook (formula T10):
    place it on the emerging-to-dead scale.
 5. **Tear down the native structure.** Name the beat, the joke, the expected cut.
 6. **Script the twist** as a T10 hook (spoken line + on-screen text + visual).
-7. **Humanizer pass** on the spoken line.
+7. **Humanizer pass** on the spoken line (`tt-humanizer` V3: AI vocab by
+   density, stacked triads, reveal bridges, sincerity openers; make it sayable,
+   never insert a punch line).
 8. **Hand off.** `tt-caption-writer` for the caption and a sound-credit note;
    `tt-content-planner` if the trend ride is one slot in the week.
 

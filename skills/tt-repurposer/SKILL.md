@@ -31,7 +31,7 @@ Not for a blank-page hook (use `tt-hook-scripter`), not for the caption on its o
 7. **Add a trend or sound angle where it fits.** If a trending sound or format carries the idea, reference `tt-trend-mapper` to check fit and script the twist. Skip it if forcing a trend would bury the point.
 8. **Write the caption.** Hand the short caption to `tt-caption-writer`: under 2,200 chars, 3 to 5 mixed-reach hashtags, TikTok settings.
 9. **Strip off-platform artifacts.** Remove "link in bio" from other platforms, hashtag walls beyond a few, "smash subscribe", @-handles that only exist elsewhere, corporate phrasing, and any "as I posted on LinkedIn" throat-clearing. A repurposed script should not admit it was repurposed.
-10. **Humanizer pass.** Run `tt-humanizer`: it scrubs em dashes, AI vocab, "hey guys" filler, and teleprompter rhythm, and checks every line is sayable out loud in one breath. Keep the user's real numbers and named entities from the source.
+10. **Humanizer pass.** Run `tt-humanizer` V3: it scrubs 2026 AI vocab by density, em dashes above the cap (caption about one per 100 words, card at most one), stacked triads, reveal bridges, sincerity openers and "hey guys" filler, fixes only a teleprompter-flat run (never inserts a punch line), and checks every line is sayable out loud in one breath. Keep the user's real numbers and named entities from the source.
 11. **Approval card.** Show: source -> TikTok mapping (what became what), the script (hook / value / loop-close), on-screen text, the trend or sound angle if any, the caption, char counts, primary goal.
 12. **On approval.** Publish the caption via `lib.publish("video", draft_text=<approved caption>, target_url="https://www.tiktok.com/upload", video_path=<render_or_None>, platforms=[<TIKTOK_PLATFORM_ID>], scheduled_time=<iso_or_None>)`. Without a rendered .mp4, `lib.publish` returns the script, caption, and settings as a copy-paste block to upload in the TikTok app.
 
@@ -61,7 +61,8 @@ Global voice rules: see root `SKILL.md` Voice rules. Additional skill-specific r
 - Keeping the source platform's artifacts ("link in bio", "smash subscribe", hashtag walls, corporate phrasing).
 - A slow open that saves the payoff for the end.
 - Lines too long to say in one breath.
-- Em dashes anywhere.
+- Em dashes above the cap in the caption or on a card, or an em dash swapped for a period.
+- "The result?" reveals and staccato stacks added for punch.
 - Rule-of-three lists without specifics.
 - "leverage", "fundamentally", "game-changer", "deep dive", "hey guys".
 - Forcing a trending sound that buries the point.

@@ -73,11 +73,17 @@ Full skeletons (three layers each) in `../../references/hook-formulas.md`.
    - The result or the tension is in frame one. No greeting, no logo, no zoom.
    - One specific number where the claim allows it.
    - Say it the way a person talks; read it out loud.
-   - No em dashes or AI vocabulary anywhere.
+   - No AI vocabulary cluster (one marker is a slip; three in the hook is a
+     script). Em dashes: `..` for a breath in the spoken line, at most one on
+     the on-screen card.
+   - No sincerity opener ("not gonna lie", "real talk") and no "Here's what
+     nobody tells you" reveal bridge; say the thing.
 4. **Write the loop-close note.** How the last frame should land so a rewatch
    feels natural (a rewatch is almost a second view).
-5. **Humanizer pass.** Run the spoken line through the `tt-humanizer` rules to
-   strip script tells before it ever reaches camera.
+5. **Humanizer pass.** Run the spoken line through the `tt-humanizer` V3
+   rules to strip script tells before it ever reaches camera: AI vocab by
+   density, stacked triads, reveal bridges, sincerity openers, written-not-
+   spoken phrasing. Make it sayable; never insert a punch line for rhythm.
 6. **Approval card.** Show: formula, the three layers, primary goal, the
    loop-close note, and an estimated hook duration.
 7. **Hand off.** Offer `tt-caption-writer` for the caption and settings, and
@@ -103,7 +109,8 @@ rules:
 - Reading the caption aloud as the hook.
 - Promising a result the video never shows on screen.
 - ALL CAPS spoken scripts (you cannot shout for 30 seconds).
-- Em dashes or AI vocabulary in the on-screen text.
+- More than one em dash, or an AI vocabulary cluster, in the on-screen text.
+- A staged punch line or "The result?" reveal inserted for rhythm.
 - Five stacked calls to action.
 
 ## Resources

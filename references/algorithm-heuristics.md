@@ -161,9 +161,10 @@ shares** together, because all three say the video was worth more than one pass.
 - [ ] The first second shows the result or the tension (no intro, no logo).
 - [ ] Spoken hook and on-screen text differ and both carry the promise.
 - [ ] One specific number in the hook where the claim allows it.
-- [ ] No em dashes (`—`), en dashes (`–`), or double dashes (`--`) in caption or
-      on-screen text.
-- [ ] No AI vocabulary blacklist words (leverage, fundamentally, delve, etc.).
+- [ ] Em dashes (`—`) under the cap: about one per 100 words in the caption, at
+      most one on a card (never swap one for a period); no en dashes (`–`)
+      between clauses or double dashes (`--`).
+- [ ] No AI vocabulary cluster (3+ markers in one beat: leverage, fundamentally, significant, etc.).
 - [ ] The last frame restarts the loop (designed for a rewatch).
 - [ ] Caption <= 2,200 chars; 3 to 5 mixed-reach hashtags at the end.
 - [ ] One clear ask (save / comment / follow), not five stacked.

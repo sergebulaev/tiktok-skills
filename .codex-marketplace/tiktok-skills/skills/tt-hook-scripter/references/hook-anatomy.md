@@ -24,7 +24,8 @@ start muted, which is a large share of every video's first impressions. Rules:
 - 3 to 7 words. It gets read at scroll speed or not at all.
 - Different words from the spoken line. Saying the same thing twice wastes the
   second; two angles on one promise widens who it catches.
-- No em dashes, minimal punctuation. A line break beats a comma.
+- At most one em dash, and a card rarely needs one; minimal punctuation. A
+  line break beats a comma.
 
 ### 3. The opening visual (frame one)
 

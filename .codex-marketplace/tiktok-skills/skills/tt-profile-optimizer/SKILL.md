@@ -102,7 +102,7 @@ rules:
 - Below 1,000 followers the link field is locked. Never write a rewrite that
   depends on a clickable link the account does not have yet; use the workaround.
 - Name field is searchable, the @handle mostly is not. Put the keyword in the name.
-- No em dashes. No "leverage", "fundamentally", "game-changer", no emoji wall.
+- At most one em dash in the bio (an 80-char bio rarely needs one). No "leverage", "fundamentally", "game-changer", no emoji wall.
 
 ## Related skills
 

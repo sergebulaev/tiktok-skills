@@ -8,9 +8,12 @@ under the video).
 
 ## Hard rules
 
-1. **No em dashes** (`—`), en dashes (`–`), or double dashes (`--`) in the
-   caption or in any on-screen text. Biggest AI tell in 2026, and on screen a
-   dash reads as a typo.
+1. **Em dashes (`—`) capped:** about 1 per 100 words in the caption, at most
+   one on an on-screen card (a 3-7 word card rarely needs one), and only a
+   breath mark in the spoken script (`..` reads better on a teleprompter). The
+   character is no longer a tell (2026 models use fewer than humans); the
+   density is. Replace the excess with a comma, colon or line break, never a
+   period. No en dashes (`–`) between clauses, no double dashes (`--`).
 2. **Write the script the way a person talks, not the way a person writes.**
    Contractions, short sentences, sentence fragments. If you would not say it out
    loud to a friend, cut it.
@@ -57,17 +60,29 @@ under the video).
 - **The caption can ask the question the video opened.** A caption that prompts a
   specific comment ("which one got you?") earns comments, which feed reach.
 
-## Vocabulary blacklist
+## Vocabulary markers (density-scored)
 
-Never use (in script or caption):
+Count these per script beat or caption paragraph. One is English; two is borderline (flag it in the report, leave the words);
+three in one script beat reads as AI and the whole script beat gets rewritten (see `tt-humanizer` V3).
+The durable 2026 set (significant, crucial, notably, particularly,
+comprehensive, insights, robust, leverage, foster, landscape, nuanced,
+streamline, elevate, empower) counts alongside the older corporate words:
 - leverage, utilize, facilitate, streamline, robust, seamless, delve, navigate,
   unlock, harness, foster, cultivate
 - fundamentally, essentially, ultimately, crucially, notably
 - landscape, ecosystem, paradigm, realm, tapestry, journey
+
+## Always forbidden (single hit, regardless of density)
+
+These are scrubbed on sight. They are reveal bridges, negative parallelism,
+dead phrases or performed sincerity, not vocabulary:
 - "It's not just X, it's Y"
 - "In today's fast-paced world"
 - "game-changer", "deep dive", "at the end of the day", "dive in"
 - "Hey guys", "don't forget to like and subscribe", "without further ado"
+- Sincerity announcements as an opener or pivot: "let me be honest", "I'll be
+  real", "honestly?", "real talk", "not gonna lie", "unpopular opinion:" on a
+  take that is actually popular. State the fact flat instead.
 
 ## Hashtags
 
@@ -84,7 +99,11 @@ Never use (in script or caption):
   different jobs).
 - A "hook" that is actually setup ("so I was thinking the other day about..").
 - ALL CAPS spoken-word scripts (you cannot shout for 30 seconds).
-- Rule of three in the script ("faster, cheaper, easier") with no specifics.
+- Stacked or hollow rule of three in the script ("faster, cheaper, easier");
+  one natural triple with concrete items is how people talk.
+- A staged punch line, "No X. No Y. Just Z." beat, or "The result?" reveal
+  inserted for rhythm. Spoken lines are naturally short; do not manufacture
+  drama-rhythm on top.
 - A call to action stacked three deep ("like, comment, follow, share, save").
   One clear ask.
 

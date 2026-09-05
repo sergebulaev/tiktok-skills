@@ -70,15 +70,20 @@ Build these with `lib.tiktok_settings(...)`. Defaults match Publora's.
    niche, whether it is commercial, and whether a rendered
    .mp4 path exists.
 2. **Draft the caption.** Front-load the first visible line with a reason to read
-   or a specific question to comment on. Keep it tight. No em dashes, no AI vocab.
-   Optionally restate the hook's open loop as a comment prompt.
+   or a specific question to comment on. Keep it tight. Em dashes under the cap
+   (about one per 100 words; a short caption rarely needs one), no AI vocab
+   cluster. Optionally restate the hook's open loop as a comment prompt.
 3. **Pick hashtags.** 3 to 5, mixed reach: one broad, one to two niche-defining,
    one to two specific to the video. Put them at the end. Never stuff.
 4. **Set the flags.** Default to `PUBLIC_TO_EVERYONE`, comments on, duet/stitch
    off, no commercial flags. Adjust per the user, and surface the two gotchas.
    Build with `lib.tiktok_settings(...)`.
 5. **Char check.** Confirm caption + hashtags <= 2,200. If over, tighten.
-6. **Humanizer pass.** Strip em dashes, AI vocab, rule-of-three, generic openers.
+6. **Humanizer pass.** Scrub 2026 AI vocab by density, cap em dashes (about
+   one per 100 words, never swap one for a period), break stacked triads,
+   generic openers, reveal bridges and sincerity openers ("not gonna lie").
+   Leave the rhythm alone; never chop a line for punch. Canonical rules:
+   `tt-humanizer` V3.
 7. **Approval card.** Show: caption, char count, hashtag set, settings summary,
    and the resolved `viewerSetting` (flag if it may post private).
 8. **On approval.** Call `lib.publish("video", caption, target_url=<upload or
@@ -101,7 +106,8 @@ rules:
 ## Anti-patterns (skill will refuse)
 
 - Hashtag walls (10+), or hashtags jammed into the sentence.
-- Em dashes in the caption.
+- Em dashes above the cap (more than about one per 100 words), or an em dash swapped for a period.
+- "The result?" reveals and "No X. No Y. Just Z." staccato stacks added for punch.
 - "Follow for part 2 / like and subscribe / don't forget to share" stacks.
 - A caption that repeats the spoken hook word for word.
 - `commercialContent: true` with neither brand flag set.

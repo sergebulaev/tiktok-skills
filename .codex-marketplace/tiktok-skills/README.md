@@ -145,7 +145,7 @@ Every skill shows you a draft first and waits for your OK. Nothing gets schedule
 | **Hook Scripter** | Scripts the first 1-3 seconds of the video: the spoken line, the on-screen text, and the opening visual, all firing at once. Picks a 2026 hook formula by goal (completion, saves, comments, shares). The single biggest retention lever |
 | **Caption Writer** | Writes the caption under 2,200 chars, picks a 3 to 5 hashtag set with mixed reach, and sets the `platformSettings.tiktok` flags (viewer setting, comments, duet, stitch, commercial and branded content). Publishes the rendered video via Publora on approval |
 | **Trend Mapper** | Maps a trending sound or format to your niche so the ride is authentic, not cringe. Runs a fit check, reads the trend lifecycle, scripts the twist that makes it yours, and tells you when to skip a trend entirely |
-| **Humanizer** | Strips AI-script tells so the spoken words sound human on camera. Kills em dashes, AI vocabulary, "hey guys" filler, and teleprompter rhythm. Bundles a `--mode audit` pre-film check (hook strength, completion design, caption fit) |
+| **Humanizer** | Removes the AI-script tells viewers hear on camera: 2026 AI vocabulary scored by density per beat, reveal bridges, staccato drama-rhythm, stacked triads, performed sincerity, "hey guys" filler and written-not-spoken phrasing; caps em dashes instead of banning them and never inserts a punch line for rhythm. Does not promise to beat detectors (no edit reliably does). Bundles a `--mode audit` pre-film check (hook strength, completion design, caption fit) |
 | **Content Planner** | Builds a weekly plan with per-day hooks, sounds, lengths, and goals, a hook-batching schedule so you film several openers in one session, a sound shortlist with the trend window, and a completion-rate goal check |
 | **Repurposer** | Rebuilds content from another platform (LinkedIn post, blog, newsletter, X thread) into a native TikTok script and caption: opens on the payoff, rewrites every line to be sayable in one breath, adds a trend or sound angle where it fits, and strips off-platform artifacts before publishing on approval |
 | **Profile Optimizer** | Audits and rewrites the profile end-to-end: photo, searchable name, username, the 80-char bio, the link (with a pre-1k workaround), up to 3 pinned videos as niche proof, and a one-line positioning statement. Turns a profile visit that follows a video into a follow |
@@ -225,10 +225,10 @@ Setup: drop `PIXFARO_TOKEN=pf_live_...` into your `.env`. The thin client at `li
 
 Every skill follows these rules automatically:
 
-1. No em dashes. Biggest AI tell in 2026, and on screen it reads as a typo.
+1. Em dashes capped: about one per 100 words in the caption, at most one on a card, `..` for a breath in the spoken line. The character stopped being a tell in 2026; the density is.
 2. Write the script the way a person talks: contractions, fragments, short lines. Read it out loud.
 3. Capitalize names. Always. Lowercase a brand reads as careless.
-4. No AI vocabulary: "leverage", "fundamentally", "delve", "harness". And no "hey guys" / "don't forget to subscribe".
+4. No AI vocabulary clusters. One 2026 marker ("leverage", "significant", "streamline") in a beat is a slip; three in one beat is a script and gets rewritten. And no "hey guys" / "don't forget to subscribe".
 5. Specific numbers beat adjectives. "3 takes" beats "a few takes".
 6. The hook is the first 1-3 seconds of the video, not the caption. Spoken line and on-screen text differ.
 7. Caption <= 2,200 chars (API). 3 to 5 mixed-reach hashtags at the end.

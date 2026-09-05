@@ -22,8 +22,9 @@ or serial videos. The spoken line and the on-screen text should differ: many
 viewers watch the first second muted, so the text has to carry the promise even
 with the sound off.
 
-> No em dashes in any spoken line or on-screen card. Use `..` as a soft pause if
-> you need one. A dash on screen reads as a typo.
+> Em dashes: use `..` as the breath mark in a spoken line (the speaker is the
+> only one who sees the script), and keep an on-screen card to at most one
+> dash; a 3-7 word card rarely needs one.
 
 ## Contents
 

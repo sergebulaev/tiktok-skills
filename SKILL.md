@@ -100,7 +100,7 @@ file, you get the caption and settings to upload in-app.
 
 ## Voice rules (baked into every skill)
 
-1. No em dashes (`—`), en dashes, or double dashes in captions or on-screen text.
+1. Em dashes (`—`) capped: about 1 per 100 words in the caption, at most one on an on-screen card, and only a breath mark in the spoken script (`..` reads better on a teleprompter). Replace the excess with a comma, colon or line break, never a period. No en dashes between clauses, no double dashes.
 2. Write the spoken script the way a person talks: contractions, fragments, short
    lines. Read it out loud before trusting it.
 3. Capitalize all personal, company, and product names. Lowercase a brand reads
@@ -110,8 +110,9 @@ file, you get the caption and settings to upload in-app.
 6. Spoken hook and on-screen text differ; both must land the promise (muted-first
    viewing is common).
 7. Caption <= 2,200 chars (API). 3 to 5 mixed-reach hashtags at the end.
-8. Avoid AI vocabulary: `leverage`, `fundamentally`, `streamline`, `harness`,
-   `delve`, `unlock`, `foster`. And no "hey guys" / "don't forget to subscribe".
+8. Avoid AI vocabulary clusters: one 2026 marker (`leverage`, `significant`,
+   `streamline`, `foster`) in a beat is a slip, three is a script and the beat
+   gets rewritten. And no "hey guys" / "don't forget to subscribe".
 
 (Canonical reference: `references/voice-rules.md`. See also
 `references/hook-formulas.md` and `references/algorithm-heuristics.md`.)
