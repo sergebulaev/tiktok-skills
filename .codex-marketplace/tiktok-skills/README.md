@@ -172,6 +172,8 @@ By default, the skills draft the script, caption, and settings for you to upload
 
 [Publora](https://publora.com) is a publishing API that turns the multi-step TikTok video upload into one `create-post`-plus-upload call (and can cross-post the same content to other platforms).
 
+Publora also ships [official MCP skills](https://github.com/publora/skills) (`npx skills add publora/skills`): one skill per platform, covering the publish side only. This bundle is the layer above them, adding the reading, the writing craft and the approval flow.
+
 ### Setup (2 minutes)
 
 **Step 1.** Sign up at https://app.publora.com/signup (free)
