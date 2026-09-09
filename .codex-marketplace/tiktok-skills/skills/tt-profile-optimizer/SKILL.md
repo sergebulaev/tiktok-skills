@@ -1,6 +1,6 @@
 ---
 name: tt-profile-optimizer
-description: Audit and rewrite a TikTok profile for 2026: photo, name (searchable), username, bio (80 chars, niche clarity is everything), link (unlocks at 1k followers, plus a pre-1k workaround), up to 3 pinned videos as proof, and one-line positioning. A profile visit follows a video, so the bio must instantly answer "what do I get if I follow". Triggers on "review my TikTok profile", "fix my TikTok bio", "what to pin on TikTok", "profile audit", "niche bio". Not for writing a video script (use tt-hook-scripter).
+description: "Audit and rewrite a TikTok profile for 2026: photo, name (searchable), username, bio (80 chars, niche clarity is everything), link (unlocks at 1k followers, plus a pre-1k workaround), up to 3 pinned videos as proof, and one-line positioning. A profile visit follows a video, so the bio must instantly answer \"what do I get if I follow\". Triggers on \"review my TikTok profile\", \"fix my TikTok bio\", \"what to pin on TikTok\", \"profile audit\", \"niche bio\". Not for writing a video script (use tt-hook-scripter)."
 ---
 
 # TikTok Profile Optimizer

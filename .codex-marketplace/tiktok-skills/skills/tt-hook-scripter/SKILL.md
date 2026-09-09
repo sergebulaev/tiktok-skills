@@ -1,6 +1,6 @@
 ---
 name: tt-hook-scripter
-description: Script the first 1-3 second TikTok hook: the spoken line, the on-screen text, and the opening visual firing at once so the viewer cannot swipe. Picks a 2026 hook formula (cold-open result, pattern interrupt, number reveal, open-loop question, relatable call-out, story) by goal of completion, saves, comments, or shares. The single biggest retention lever on TikTok. Use to script a hook from a video idea. Not for the caption (use tt-caption-writer) or scrubbing a script (use tt-humanizer).
+description: "Script the first 1-3 second TikTok hook: the spoken line, the on-screen text, and the opening visual firing at once so the viewer cannot swipe. Picks a 2026 hook formula (cold-open result, pattern interrupt, number reveal, open-loop question, relatable call-out, story) by goal of completion, saves, comments, or shares. The single biggest retention lever on TikTok. Use to script a hook from a video idea. Not for the caption (use tt-caption-writer) or scrubbing a script (use tt-humanizer)."
 ---
 
 # TikTok Hook Scripter

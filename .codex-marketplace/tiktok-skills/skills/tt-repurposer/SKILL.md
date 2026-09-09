@@ -1,6 +1,6 @@
 ---
 name: tt-repurposer
-description: Repurpose content into a native TikTok script and caption. Take a LinkedIn post, blog, newsletter, or X thread that worked elsewhere and rebuild it as a spoken script: hook in the first second, every line sayable in one breath, open on the payoff, a trend angle where it fits, plus a caption, published via Publora on approval. Adapts content across platforms. Not for a fresh hook (use tt-hook-scripter), not the caption only (use tt-caption-writer), not auditing a script (use tt-humanizer --mode audit).
+description: "Repurpose content into a native TikTok script and caption. Take a LinkedIn post, blog, newsletter, or X thread that worked elsewhere and rebuild it as a spoken script: hook in the first second, every line sayable in one breath, open on the payoff, a trend angle where it fits, plus a caption, published via Publora on approval. Adapts content across platforms. Not for a fresh hook (use tt-hook-scripter), not the caption only (use tt-caption-writer), not auditing a script (use tt-humanizer --mode audit)."
 ---
 
 # TikTok Repurposer

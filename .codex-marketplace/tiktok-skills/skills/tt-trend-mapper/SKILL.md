@@ -1,6 +1,6 @@
 ---
 name: tt-trend-mapper
-description: Map a trending TikTok sound or format to your niche so the ride is authentic, not cringe. Runs a fit check (does it match your niche, is it still early, what is the native joke), then scripts the twist that makes the trend yours: the recognizable beat plus a niche-specific turn. Covers sound timing, the trend lifecycle, and when to skip a trend entirely. Use to ride a trend without looking late or forced. Not for a from-scratch hook (use tt-hook-scripter) or a posting plan (use tt-content-planner).
+description: "Map a trending TikTok sound or format to your niche so the ride is authentic, not cringe. Runs a fit check (does it match your niche, is it still early, what is the native joke), then scripts the twist that makes the trend yours: the recognizable beat plus a niche-specific turn. Covers sound timing, the trend lifecycle, and when to skip a trend entirely. Use to ride a trend without looking late or forced. Not for a from-scratch hook (use tt-hook-scripter) or a posting plan (use tt-content-planner)."
 ---
 
 # TikTok Trend Mapper

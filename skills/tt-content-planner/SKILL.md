@@ -1,6 +1,6 @@
 ---
 name: tt-content-planner
-description: Build a weekly TikTok posting plan from a niche, audience, and content pillars. Produces per-day picks (hook formula, angle, sound, video length, goal, posting time), a hook-batching schedule so you film several openers in one session, a sound shortlist with the trend window, and a completion-rate goal check. Use for a repeatable posting rhythm instead of ad-hoc videos. Not for scripting one hook (use tt-hook-scripter) or one caption (use tt-caption-writer).
+description: "Build a weekly TikTok posting plan from a niche, audience, and content pillars. Produces per-day picks (hook formula, angle, sound, video length, goal, posting time), a hook-batching schedule so you film several openers in one session, a sound shortlist with the trend window, and a completion-rate goal check. Use for a repeatable posting rhythm instead of ad-hoc videos. Not for scripting one hook (use tt-hook-scripter) or one caption (use tt-caption-writer)."
 ---
 
 # TikTok Content Planner

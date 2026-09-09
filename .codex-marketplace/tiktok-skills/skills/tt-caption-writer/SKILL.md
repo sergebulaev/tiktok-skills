@@ -1,6 +1,6 @@
 ---
 name: tt-caption-writer
-description: Write a TikTok caption under 2,200 chars (hashtags included), pick a tasteful 3 to 5 hashtag set with mixed reach, and set the platformSettings.tiktok flags (viewer setting, comments, duet, stitch, commercial and branded content). Front-loads a reason to comment, runs the humanizer pass, and publishes the rendered video via Publora on approval. Use to caption a finished video. Not for the in-video hook (use tt-hook-scripter) or scrubbing a script (use tt-humanizer).
+description: "Write a TikTok caption under 2,200 chars (hashtags included), pick a tasteful 3 to 5 hashtag set with mixed reach, and set the platformSettings.tiktok flags (viewer setting, comments, duet, stitch, commercial and branded content). Front-loads a reason to comment, runs the humanizer pass, and publishes the rendered video via Publora on approval. Use to caption a finished video. Not for the in-video hook (use tt-hook-scripter) or scrubbing a script (use tt-humanizer)."
 ---
 
 # TikTok Caption Writer

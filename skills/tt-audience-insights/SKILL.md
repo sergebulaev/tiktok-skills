@@ -1,6 +1,6 @@
 ---
 name: tt-audience-insights
-description: Read your TikTok niche and audience from real data. Scan a hashtag for top videos with plays, likes, and comments, see which hooks and sounds are working, pull a profile's videos (yours or a competitor's), and read the commenters on a video (TikTok hides likers, so commenters are the signal). Powered by Apify, no login. Triggers on "what is trending on TikTok", "analyze this hashtag", "competitor videos", "read my comments", "which sounds are working". Not for writing a script (use tt-hook-scripter).
+description: "Read your TikTok niche and audience from real data. Scan a hashtag for top videos with plays, likes, and comments, see which hooks and sounds are working, pull a profile's videos (yours or a competitor's), and read the commenters on a video (TikTok hides likers, so commenters are the signal). Powered by Apify, no login. Triggers on \"what is trending on TikTok\", \"analyze this hashtag\", \"competitor videos\", \"read my comments\", \"which sounds are working\". Not for writing a script (use tt-hook-scripter)."
 ---
 
 # TikTok Audience Insights

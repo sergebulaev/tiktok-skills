@@ -1,6 +1,6 @@
 ---
 name: tt-humanizer
-description: 'Remove the AI-script tells viewers hear in a TikTok spoken script and caption: 2026 vocabulary by density, reveal bridges, staccato stacks, stacked triads, performed sincerity, written-not-spoken phrasing, "hey guys" filler; caps em dashes. Includes --mode audit pre-film check (hook, completion design, caption fit) and --mode profile. Not for beating AI detectors (no edit reliably does). Not for writing from scratch (use tt-hook-scripter). Keywords: humanize script, de-AI, audit before filming.'
+description: "Remove the AI-script tells viewers hear in a TikTok spoken script and caption: 2026 vocabulary by density, reveal bridges, staccato stacks, stacked triads, performed sincerity, written-not-spoken phrasing, \"hey guys\" filler; caps em dashes. Includes --mode audit pre-film check (hook, completion design, caption fit) and --mode profile. Not for beating AI detectors (no edit reliably does). Not for writing from scratch (use tt-hook-scripter). Keywords: humanize script, de-AI, audit before filming."
 ---
 
 # TikTok Humanizer V3
