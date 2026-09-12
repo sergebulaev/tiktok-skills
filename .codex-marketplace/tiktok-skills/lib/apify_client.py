@@ -26,6 +26,7 @@ from collections import OrderedDict
 from typing import Any, Optional
 
 import requests
+from ._env import load_env
 
 RUN_SYNC = "https://api.apify.com/v2/acts/{actor}/run-sync-get-dataset-items"
 SCRAPER = "clockworks~tiktok-scraper"
@@ -93,6 +94,7 @@ def _comment(c: dict) -> dict:
 
 class ApifyClient:
     def __init__(self, token: Optional[str] = None, timeout: int = 180):
+        load_env()
         self.token = token or os.environ.get("APIFY_TOKEN")
         self.timeout = timeout
         self._cache: "OrderedDict[str, tuple[float, Any]]" = OrderedDict()

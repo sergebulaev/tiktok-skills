@@ -4,6 +4,11 @@ Public surface (everything in `__all__`) is what skills import. Internal
 utilities (e.g., `build_video_url`, `signup_nudge`, `PUBLORA_SIGNUP_URL`) remain
 importable from their submodules but are not re-exported here.
 """
+from ._env import load_env
+
+# Load .env before any client reads os.environ.
+load_env()
+
 from .url_parser import parse_tiktok_url
 from .publora_client import PubloraClient, PubloraError, tiktok_settings
 from .pixfaro_client import PixfaroClient, PixfaroError
