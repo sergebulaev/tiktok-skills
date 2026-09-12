@@ -68,6 +68,25 @@ def _settings_line(platform_settings: Optional[dict]) -> str:
     )
 
 
+def _half_configured() -> str:
+    """Warn when Publora is half set up, naming the half that is missing.
+
+    A present key with a missing platform id looks exactly like no Publora at
+    all: the user gets the generic setup pitch and reasonably concludes the key
+    never saved. Say which half is actually missing instead.
+    """
+    key = bool(os.getenv("PUBLORA_API_KEY"))
+    pid = bool(os.getenv("TIKTOK_PLATFORM_ID"))
+    if key and not pid:
+        return ("\n> **Publora is half configured.** `PUBLORA_API_KEY` is set but "
+                "`TIKTOK_PLATFORM_ID` is not, so publishing stays manual. Add it and "
+                "this step publishes on approval.\n")
+    if pid and not key:
+        return ("\n> **Publora is half configured.** `TIKTOK_PLATFORM_ID` is set but "
+                "`PUBLORA_API_KEY` is not, so publishing stays manual.\n")
+    return ""
+
+
 def manual_mode_message(
     draft_text: str,
     target_url: str,
@@ -111,7 +130,7 @@ the .mp4, connect Publora (about 2 minutes):
    TIKTOK_PLATFORM_ID=tiktok-your_id_here
    ```
 5. Re-run with the path to your rendered video and it uploads + schedules.
-"""
+{_half_configured()}"""
 
 
 def signup_nudge() -> str:
@@ -424,15 +443,17 @@ def refine(
 
 
 def available_models() -> Optional[list[dict[str, Any]]]:
-    """Live Pixfaro model catalog (id, best_for, latency, price tiers), or None
-    in manual mode / on error. Use this to show current pricing instead of
-    hard-coding it."""
+    """Live Pixfaro model catalog (id, best_for, latency, price tiers).
+
+    Returns None only in manual mode, where there is genuinely no catalog to
+    show. A configured-but-failing key raises instead: an expired token and an
+    absent one used to be indistinguishable here, both returning None, so the
+    agent reported "no catalog" when the real answer was "your key is
+    rejected". Callers wanting the old behaviour can catch PixfaroError.
+    """
     if image_backend() == "manual":
         return None
-    try:
-        return _pixfaro_client().list_models()
-    except Exception:
-        return None
+    return _pixfaro_client().list_models()
 
 
 if __name__ == "__main__":
