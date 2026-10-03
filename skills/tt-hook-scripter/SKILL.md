@@ -62,6 +62,8 @@ Full skeletons (three layers each) in `../../references/hook-formulas.md`.
 
 **Voice profile first (all drafts).** If `../../references/voice-profile.md` has `filled: yes`, load it and match the user's voice fingerprint, hard rules, and CTA/link style throughout. If it is not filled, mention once that `tt-humanizer --mode profile` can learn their voice from a few posts, then proceed with the generic voice rules.
 
+**Never invent the specifics.** The rules below ask for a concrete number, a date and a named entity, because that is what separates a real post from a generated one. Take them from what the user actually said in this conversation. **Do not invent a figure, a date, a client name or a result, and do not soften a vague claim into a plausible-looking number.** If the user has nothing concrete for a beat, ask them once, and if they still have nothing, drop the claim rather than decorate it. A published invented number is a retraction; a missing one is only a weaker post.
+
 1. **Gather inputs.** The video idea, the niche/audience, the one promise the
    video delivers, and the goal (completion / saves / comments / shares).
 2. **Pick the formula.** Use the goal table to shortlist, then suggest 2-3 that
