@@ -241,7 +241,7 @@ class PubloraClient:
                 upload_url,
                 data=f,
                 headers={"Content-Type": content_type},
-                timeout=max(self.timeout, 300.0),
+                allow_redirects=False, timeout=max(self.timeout, 300.0),
             )
         if r.status_code >= 400:
             raise PubloraError(f"S3 upload failed HTTP {r.status_code}: {r.text[:300]}")
@@ -322,7 +322,7 @@ class PubloraClient:
         `tiktok-<id>` to pass to `create_post` / `publish_video`.
         """
         r = self._session.get(
-            self.BASE_URL + "/platform-connections", timeout=self.timeout
+            self.BASE_URL + "/platform-connections", allow_redirects=False, timeout=self.timeout
         )
         data = self._handle(r)
         return data.get("connections", [])
@@ -340,14 +340,14 @@ class PubloraClient:
     @_retry()
     def _post(self, path: str, json_body: dict[str, Any]) -> dict[str, Any]:
         r = self._session.post(
-            self.BASE_URL + path, json=json_body, timeout=self.timeout
+            self.BASE_URL + path, json=json_body, allow_redirects=False, timeout=self.timeout
         )
         return self._handle(r)
 
     @_retry()
     def _put(self, path: str, json_body: dict[str, Any]) -> dict[str, Any]:
         r = self._session.put(
-            self.BASE_URL + path, json=json_body, timeout=self.timeout
+            self.BASE_URL + path, json=json_body, allow_redirects=False, timeout=self.timeout
         )
         return self._handle(r)
 
