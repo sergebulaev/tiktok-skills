@@ -20,7 +20,7 @@ Not for writing a script (use `tt-hook-scripter`) or a caption (use `tt-caption-
 
 ## Setup (optional)
 
-The read layer uses **Apify** (no login). Free token at `https://console.apify.com/account/integrations`, set `APIFY_TOKEN`. Video scanning is about $1.70 per 1,000, comments about $0.50 per 1,000. No token? Paste the videos or comments and the skill runs the same analysis.
+The read layer uses **Apify** (no login). Free token at `https://console.apify.com/account/integrations`, set `APIFY_TOKEN`. Video scanning is about $1.70 per 1,000, comments about $0.50 per 1,000. No token? Paste the videos or comments and the skill runs the same analysis. **On claude.ai**, where a skill cannot hold a token, add Apify's MCP server as a custom connector instead and call `clockworks--tiktok-scraper` / `clockworks--tiktok-comments-scraper`, applying the mapping in `../../references/mcp-read-layer.md`. With neither, the skill asks you to paste what you can see.
 
 ## Input
 

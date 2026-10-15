@@ -223,6 +223,25 @@ A strong cover sells the video. The Caption Writer can generate a 9:16 cover wit
 
 Setup: drop `PIXFARO_TOKEN=pf_live_...` into your `.env`. The thin client at `lib/pixfaro_client.py` and the wrappers `lib.illustrate(prompt, kind="story")` / `lib.refine(image_id, instruction)` return a hosted URL that flows straight into `lib.publish(..., media_urls=[url])`. `refine` edits a prior image by its id (cheaper than regenerating); results carry `cost`, `balance_after`, and a `premium` flag so the skills never quietly spend on a pricey model.
 
+## Optional: read real TikTok data with Apify
+
+`tt-audience-insights` scans a hashtag or a profile for videos with plays, likes, comments, shares and the sound, and pulls the commenters on a video. Without a read credential it asks you to paste what you can see, so nothing breaks.
+
+**With a shell**, drop a free token into your `.env`:
+
+```
+APIFY_TOKEN=apify_api_...
+```
+
+**On claude.ai**, where a skill has no environment to hold a token, add Apify's MCP server as a custom connector instead:
+
+```
+https://mcp.apify.com?actors=clockworks/tiktok-scraper,clockworks/tiktok-comments-scraper
+```
+
+Sign in with OAuth on first use, no key on disk. **Keep the `?actors=` filter**: the bare `https://mcp.apify.com` also hands the agent `search-actors` and `call-actor`, which run anything in the Apify Store at whatever that actor charges.
+
+TikTok does not expose who liked a video, only the count, so the engagement signal here is commenters plus video performance and never a liker roster. Details and the field mapping: [`references/mcp-read-layer.md`](references/mcp-read-layer.md).
 ## Voice rules
 
 Every skill follows these rules automatically:
