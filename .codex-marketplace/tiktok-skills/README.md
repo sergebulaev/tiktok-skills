@@ -153,7 +153,7 @@ Every skill shows you a draft first and waits for your OK. Nothing gets schedule
 
 ## How publishing works on TikTok
 
-TikTok requires a video on every post, so a caption alone cannot go out. The official TikTok Content Posting API also needs an OAuth flow and an app review. This bundle hands the whole chain to [Publora](https://publora.com): once you have a rendered .mp4, the flow is
+TikTok requires a video on every post, so a caption alone cannot go out. The official TikTok Content Posting API also needs an OAuth flow and an app review. This bundle hands the whole chain to [Publora](https://publora.com/?utm_source=github&utm_medium=readme&utm_campaign=tiktok-skills): once you have a rendered .mp4, the flow is
 
 ```
 1. create a draft (the caption, no scheduled time)
@@ -170,13 +170,13 @@ By default, the skills draft the script, caption, and settings for you to upload
 
 ### What is Publora?
 
-[Publora](https://publora.com) is a publishing API that turns the multi-step TikTok video upload into one `create-post`-plus-upload call (and can cross-post the same content to other platforms).
+[Publora](https://publora.com/?utm_source=github&utm_medium=readme&utm_campaign=tiktok-skills) is a publishing API that turns the multi-step TikTok video upload into one `create-post`-plus-upload call (and can cross-post the same content to other platforms).
 
 Publora also ships [official MCP skills](https://github.com/publora/skills) (`npx skills add publora/skills`): one skill per platform, covering the publish side only. This bundle is the layer above them, adding the reading, the writing craft and the approval flow.
 
 ### Setup (2 minutes)
 
-**Step 1.** Sign up at https://app.publora.com/signup (free)
+**Step 1.** Sign up at https://app.publora.com/signup?utm_source=github&utm_medium=readme&utm_campaign=tiktok-skills (free)
 
 **Step 2.** Connect TikTok: click **Channels** in the left sidebar, then **Add Channel**, pick **TikTok**, authorize.
 
@@ -346,7 +346,7 @@ TikTok requires media on every post, and the upload is a pre-signed S3 PUT, not 
 
 ## References
 
-- [Publora API docs](https://docs.publora.com) - endpoint reference for the publishing layer
+- [Publora API docs](https://docs.publora.com/?utm_source=github&utm_medium=readme&utm_campaign=tiktok-skills) - endpoint reference for the publishing layer
 - [TikTok Content Posting API](https://developers.tiktok.com/doc/content-posting-api-reference-direct-post) - the official API behind the 2026 heuristics
 
 ## Who builds this
@@ -359,7 +359,7 @@ This repo is the thin top layer of that stack, open-sourced. The engine undernea
 
 ## License
 
-MIT. Powered by [Publora](https://publora.com).
+MIT. Powered by [Publora](https://publora.com/?utm_source=github&utm_medium=readme&utm_campaign=tiktok-skills).
 
 ## Related open-source skill bundles
 

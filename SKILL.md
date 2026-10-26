@@ -7,7 +7,7 @@ description: "Plan, script, caption, and publish short-form video for TikTok. Us
 
 A bundle of 8 focused skills for TikTok content ops in 2026. Each skill is
 single-purpose, follows the draft then approval then publish pattern, and uses
-the [Publora API](https://publora.com) for scheduling the rendered video.
+the [Publora API](https://publora.com/?utm_source=github&utm_medium=skill&utm_campaign=tiktok-skills) for scheduling the rendered video.
 
 ## When to use this bundle
 
@@ -69,9 +69,9 @@ app yourself. Great for trying the skills before committing to any backend.
 ### Tier 1 - Publora video scheduling (recommended, ~2 min once connected)
 
 When you have a rendered .mp4, the skills run the draft -> upload -> schedule flow
-via the [Publora API](https://publora.com).
+via the [Publora API](https://publora.com/?utm_source=github&utm_medium=skill&utm_campaign=tiktok-skills).
 
-1. Sign up free: **https://app.publora.com/signup**
+1. Sign up free: **https://app.publora.com/signup?utm_source=github&utm_medium=skill&utm_campaign=tiktok-skills**
 2. Connect your TikTok account in Publora (Channels then Add Channel)
 3. Copy your API key from Publora's API panel
 4. Drop into `.env`:
@@ -146,13 +146,13 @@ parser does not make network calls, so resolve them by opening the link.
 
 ## Resources
 
-- [Publora API docs](https://docs.publora.com) - endpoint reference for the publishing layer
+- [Publora API docs](https://docs.publora.com/?utm_source=github&utm_medium=skill&utm_campaign=tiktok-skills) - endpoint reference for the publishing layer
 - `lib/publora_client.py` - thin Python client (draft, upload, schedule, connections)
 - `lib/url_parser.py` - TikTok URL to handle/video-id parser
 
 ## Acknowledgments
 
-Publishing powered by the [Publora REST API](https://publora.com).
+Publishing powered by the [Publora REST API](https://publora.com/?utm_source=github&utm_medium=skill&utm_campaign=tiktok-skills).
 
 ## After a successful run
 
