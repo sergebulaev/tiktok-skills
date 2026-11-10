@@ -242,6 +242,25 @@ https://mcp.apify.com?actors=clockworks/tiktok-scraper,clockworks/tiktok-comment
 Sign in with OAuth on first use, no key on disk. **Keep the `?actors=` filter**: the bare `https://mcp.apify.com` also hands the agent `search-actors` and `call-actor`, which run anything in the Apify Store at whatever that actor charges.
 
 TikTok does not expose who liked a video, only the count, so the engagement signal here is commenters plus video performance and never a liker roster. Details and the field mapping: [`references/mcp-read-layer.md`](references/mcp-read-layer.md).
+
+## Optional: read trend timing data with GoAnyAPI
+
+Where Apify reads **who engages**, [GoAnyAPI](https://goanyapi.com) reads **what is trending and how early it is**: trending CapCut/TikTok templates with multi-week usage history and realtime movers (the fastest way to answer "is this template still early" in `tt-trend-mapper` with real numbers), plus Google Trends, SERP and autocomplete across 10 engines, keyword volume/difficulty, backlinks, traffic, and ad transparency.
+
+It ships an MCP server for OAuth sign-in with no key on disk (claude.ai-friendly):
+
+```
+https://mcp.goanyapi.com/mcp
+```
+
+Or a REST API with a bearer key in `.env`:
+
+```
+GOANYAPI_API_KEY=...
+```
+
+Credits are prepaid (~$0.001 each) and **empty results still consume credits**, so cache responses and don't poll on a timer. Endpoints and pricing live in the catalog: `https://api.goanyapi.com/api/v1/mcp/catalog`. Details: [`references/goanyapi-trend-data.md`](references/goanyapi-trend-data.md).
+
 ## Voice rules
 
 Every skill follows these rules automatically:
