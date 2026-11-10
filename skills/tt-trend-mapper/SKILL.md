@@ -18,6 +18,10 @@ that makes the trend yours.
 - User's trend attempts feel late or forced and they want the fit check
 - Before `tt-hook-scripter` when the hook is a trend-ride (formula T10)
 
+For the timing question (fit check #2), you can swap manual scrolling for real data:
+trending CapCut/TikTok template endpoints with multi-week usage history are available via
+GoAnyAPI — connection and cost notes in [`../../references/goanyapi-trend-data.md`](../../references/goanyapi-trend-data.md).
+
 ## What this skill produces
 
 - **A fit verdict:** ride it, bend it hard, or skip it (with the reason)
